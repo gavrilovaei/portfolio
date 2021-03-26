@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+}
+
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.page-header {
+  margin: 0;
+  padding: 50px 32px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+}
+
+.menu-header {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-left: 50%;
+  background-image: url(./img/responsive.png);
+  background-repeat: no-repeat;
+  background-position: 10% 30%;
+  margin-bottom: 30px;
+}
+
+.menu-header li {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.menu-header a {
+  font-weight: 700;
+  color: #010327;
+  text-decoration: none;
+}
+
+.hero-image {
+  padding-top: 50px;
+  padding-bottom: 620px;
+  background-image: url("img/computer-1867758_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.heading {
+  margin: 0 0 36px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 88px;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+.hero-image p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.hero-image .email {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.hero-image a {
+  background-repeat: no-repeat;
+  color: #010327;
+  text-decoration: none;
+}
+
+.hero-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
+
+}
+
+.hero-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header.svg");
+}
+
+
+.skills {
+  margin: 0;
+  padding: 50px 0;
+}
+
+.subheading {
+  margin: 0 0 42px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30px;
+}
+
+.skills-list dd {
+  margin-bottom: 40px;
+}
+
+.skill-html {
+  background-image: url(img/icon-html.svg);
+}
+
+.skill-css {
+  background-image: url(img/icon-css.svg);
+}
+
+.skill-js {
+  background-image: url(img/icon-js.svg);
+}
+
+.portfolio {
+  margin: 0;
+  padding: 50px 0;
+  background-color: #FFFEFD;
+}
+
+.portfolio h3 {
+  margin: 0 0 40px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.project-image {
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.project p {
+  margin: 30px 0 20px;
+}
+
+.button {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
+  text-align: center;
+}
+
+.academy {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.certificates {
+  padding: 50px 0;
+}
+
+.certificates img {
+  width: 400px;
+}
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.page-footer .email {
+  margin-bottom: 20px;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer.svg");
+  width: 100%;
+}
