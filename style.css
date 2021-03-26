@@ -52,6 +52,19 @@ body {
   text-decoration: none;
 }
 
+.menu-header a:hover {
+  text-decoration: underline;
+  color: #2a2dfa;
+  text-shadow: 2px -1px 3px #6063fa09;
+  transition: color 0.3s;
+}
+
+.menu-header a:active {
+  text-decoration: none;
+  color: #25063394;
+  transition: color 0.3s;
+}
+
 .hero-image {
   padding-top: 50px;
   padding-bottom: 620px;
@@ -86,6 +99,18 @@ body {
   background-repeat: no-repeat;
   color: #010327;
   text-decoration: none;
+}
+
+.hero-image a:hover {
+  color: #2a2dfa;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.hero-image a:active {
+  color: #25063394;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .hero-email {
@@ -182,10 +207,21 @@ body {
   text-align: center;
 }
 
+.button:hover {
+  background-color: #0b3c69;
+  color: white;
+  border: 2px solid #888484;
+  transform: background-color 0.3s;
+}
+
 .academy {
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+.academy:hover {
+  text-decoration: underline;
 }
 
 .certificates {
@@ -200,6 +236,7 @@ body {
   padding: 40px 0;
   background-color: #00417d;
   color: #ffffff;
+  scroll-snap-align: start;
 }
 
 .page-footer .email {
@@ -213,6 +250,11 @@ body {
   background-repeat: no-repeat;
   background-position: left;
 
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+  color: rgba(250, 250, 250, 0.8);
 }
 
 .footer-email {
