@@ -228,8 +228,15 @@ body {
   padding: 50px 0;
 }
 
+.certificates .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .certificates img {
-  width: 400px;
+  width: 300px;
+  margin: 5px;
 }
 
 .page-footer {
