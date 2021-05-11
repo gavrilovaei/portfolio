@@ -116,12 +116,14 @@ body {
 .hero-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+  background-position-y: center;
 
 }
 
 .hero-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+  background-position-y: center;
 }
 
 
