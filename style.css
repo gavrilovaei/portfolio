@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  min-width: 960px;
+  /* min-width: 960px; */
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -10,31 +10,31 @@ body {
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .wrapper {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
-  text-align: left; 
+  text-align: left;
 }
 
 
 .page-header {
   margin: 0;
-  padding: 50px 32px;
+  padding: 50px 0;
 }
 
 .page-header .container,
 .page-footer .container {
-  max-width: 1408px;
+  max-width: 1400px;
 }
 
 .menu-header {
   padding: 0;
   margin: 0;
   list-style: none;
-  padding-left: 50%;
+  padding-left: 65%;
   background-image: url(./img/responsive.png);
   background-repeat: no-repeat;
   background-position: 10% 30%;
@@ -74,10 +74,15 @@ body {
   background-position: top center;
 }
 
+.hero-image .wrapper {
+  width: 100%;
+  padding-left: 25px;
+}
+
 .heading {
   margin: 0 0 36px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  font-size: calc(55px + 16 * (100vw / 1280));
   line-height: 96px;
   font-weight: 400;
 }
@@ -195,13 +200,17 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 
-.projects div {
-  margin-left: auto;
-  margin-right: auto;
-  
+.project {
+  display: block;
+  flex-grow: 1;
+  max-width: 450px;
+  margin: 25px;
 }
+
 
 .portfolio h3 {
   margin: 0 0 40px;
@@ -211,10 +220,8 @@ body {
   text-align: center;
 }
 
-
-.project-image {
-  margin: 0 auto;
-  text-align: center;
+.project img {
+  width: 100%;
 }
 
 .project p {
@@ -255,22 +262,24 @@ body {
 }
 
 .certificates .wrapper {
+  width: 100%;
+  max-width: 1042px;
   display: flex;
   flex-direction: column;
-  align-items: center;  
-  
+  align-items: center;
 }
 
 .certificates-small,
 .bitrix {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .certificates img {
-  width: 300px;
-  margin: 5px;
+flex-shrink: 1;
+  max-width: 450px;
+  margin: 10px;
 }
 
 .page-footer {
