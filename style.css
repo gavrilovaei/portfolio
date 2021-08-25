@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
+  background-color: #f2f4f6; 
 }
 
 .container {
@@ -74,8 +74,7 @@ body {
 }
 
 .hero-image .wrapper {
-  width: 100%; 
-  margin-left: 5%;
+  width: 100%;  
 }
 
 .heading {
@@ -84,6 +83,7 @@ body {
   font-size: calc(50px + 38 * (100vw / 1440));
   line-height: 96px;
   font-weight: 400;
+  padding-left: 5%;
 }
 
 .hero-image p {
@@ -92,11 +92,17 @@ body {
   line-height: 48px;
   text-align: left;
   margin-bottom: 30px;
+  padding-left: 5%;
 }
 
 .hero-image .email {
   margin-bottom: 20px;
   width: 100%;
+  padding-left: 5%;
+}
+
+.hero-image .phone {
+  padding-left: 5%;
 }
 
 .hero-image a {
@@ -225,6 +231,10 @@ body {
 
 .project p {
   margin: 30px 0 20px;
+}
+
+.bold {
+  font-weight: 500;
 }
 
 .button {
