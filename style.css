@@ -29,14 +29,18 @@ body {
   max-width: 1400px;
 }
 
+.page-header .container {
+  display: flex;
+}
+
+.page-header img {
+  width: 188px;
+}
+
 .menu-header {
   padding: 0;
-  margin: 0;
-  list-style: none;
-  padding-left: 65%;
-  background-image: url(./img/responsive.png);
-  background-repeat: no-repeat;
-  background-position: 10% 30%;
+  margin: 0 30% 0 auto;
+  list-style: none; 
   margin-bottom: 30px;
 }
 
