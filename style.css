@@ -17,18 +17,8 @@ body {
 .page-header { 
   padding: 50px 0;
   display: flex;
-  /* max-width: 1440px; */
   margin: 0 auto;
 }
-
-/* .page-header .container,
-.page-footer .container {
-  max-width: 1400px;
-} */
-
-/* .page-header .container {
-  display: flex;
-} */
 
 .page-header img {
   width: 188px;  
