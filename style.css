@@ -259,6 +259,10 @@ body {
   padding: 50px 0;
 }
 
+.certificates .subheading {
+  font-size: calc(44px + 24 * (100vw / 1440));
+}
+
 .certificates .wrapper {
   width: 100%;
   max-width: 1042px;
@@ -275,8 +279,7 @@ body {
 }
 
 .certificates img {
-  max-width: 365px;
-  margin: 10px;
+  margin: 10px; 
 }
 
 .page-footer {
