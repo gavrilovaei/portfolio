@@ -253,6 +253,7 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 500;
+  transform: text-decoration 0.3s;
 }
 
 .academy:hover {
