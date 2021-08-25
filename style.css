@@ -278,8 +278,12 @@ body {
   flex-wrap: wrap;
 }
 
+.certificat {
+  margin: 5px;
+}
+
 .certificates img {
-  margin: 10px; 
+ width: 100%;
 }
 
 .page-footer {
