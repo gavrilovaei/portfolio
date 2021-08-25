@@ -7,11 +7,6 @@ body {
   background-color: #f2f4f6; 
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 .wrapper {
   width: 50%;
   margin: 0 auto;
@@ -19,22 +14,28 @@ body {
 }
 
 
-.page-header {
-  margin: 0;
+.page-header { 
   padding: 50px 0;
+  display: flex;
+  /* max-width: 1440px; */
+  margin: 0 auto;
 }
 
-.page-header .container,
+/* .page-header .container,
 .page-footer .container {
   max-width: 1400px;
-}
+} */
 
-.page-header .container {
+/* .page-header .container {
   display: flex;
-}
+} */
 
 .page-header img {
-  width: 188px;
+  width: 188px;  
+}
+
+.page-header .responsive {
+  padding-left: 5%;
 }
 
 .menu-header {
