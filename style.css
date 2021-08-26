@@ -246,14 +246,14 @@ body {
 .button:hover {
   background-color: #0b3c69;
   color: white;
-  transform: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .academy {
   text-decoration: none;
   color: black;
   font-weight: 500;
-  transform: text-decoration 0.3s;
+  transition: text-decoration 0.3s;
 }
 
 .academy:hover {
