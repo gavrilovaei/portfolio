@@ -192,6 +192,10 @@ body {
   background-image: url(img/icon-1c_bitrix.svg);
 }
 
+.skill-bootstrap {
+	background-image: url(img/icon-bootstrap.svg);
+}
+
 .portfolio {
   margin: 0;
   padding: 50px 0;
